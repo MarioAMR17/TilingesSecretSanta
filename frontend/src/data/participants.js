@@ -1,0 +1,58 @@
+export const participants = [
+  {
+    id: "cabrolina",
+    name: "Cabrolina",
+    photo: "/pics/perfiles/Cabrolina.jpeg",
+    resultPhoto: "/pics/resultado/Cabrolina.jpeg",
+    phrase: "Cuando haz visto a 3 crikosos compartir un foco",
+  },
+  {
+    id: "caldohuevo",
+    name: "CaldoHuevo",
+    photo: "/pics/perfiles/CaldoHuevo.jpeg",
+    resultPhoto: "/pics/resultado/CaldoHuevo.jpeg",
+    phrase: "Ewe, te lo juro que no soy emo",
+  },
+  {
+    id: "hetor",
+    name: "Hetor",
+    photo: "/pics/perfiles/Hetor.jpeg",
+    resultPhoto: "/pics/resultado/Hetor.jpeg",
+    phrase: "Si me besa, no me enculo",
+  },
+  {
+    id: "homes",
+    name: "Homes",
+    photo: "/pics/perfiles/Homes.jpeg",
+    resultPhoto: "/pics/resultado/Homes.jpeg",
+    phrase: "PA-PA",
+  },
+  {
+    id: "mariobrown",
+    name: "MarioBrown",
+    photo: "/pics/perfiles/MarioBrown.jpeg",
+    resultPhoto: "/pics/resultado/MarioBrown.jpeg",
+    phrase: "$2,500,000,000,000",
+  },
+  {
+    id: "mollete",
+    name: "Mollete",
+    photo: "/pics/perfiles/Mollete.jpeg",
+    resultPhoto: "/pics/resultado/Mollete.jpeg",
+    phrase: "Tiki-tiki",
+  },
+  {
+    id: "pastillita",
+    name: "Pastillita",
+    photo: "/pics/perfiles/Pastillita.jpeg",
+    resultPhoto: "/pics/resultado/Pastillita.jpeg",
+    phrase: "Piendejo",
+  },
+  {
+    id: "willyrex",
+    name: "Willyrex",
+    photo: "/pics/perfiles/Willyrex.jpeg",
+    resultPhoto: "/pics/resultado/Willyrex.jpeg",
+    phrase: "Alegría, Riley se enamoró de un mari guano",
+  },
+];

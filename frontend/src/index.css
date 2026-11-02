@@ -1,0 +1,33 @@
+:root {
+  --bg-deep: #0e2b20;
+  --bg-deep-2: #123726;
+  --gold: #e0b354;
+  --gold-soft: #f0d9a3;
+  --cream: #f6f1e4;
+  --red-accent: #b5443b;
+  --text-muted: #c9d6cc;
+
+  font-family: "Poppins", system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-deep);
+  color: var(--cream);
+}
+
+button {
+  font-family: inherit;
+}

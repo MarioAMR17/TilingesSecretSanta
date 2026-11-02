@@ -1,0 +1,132 @@
+.home {
+  display: flex;
+  min-height: 100vh;
+}
+
+.home__photo {
+  flex: 1.15;
+  position: relative;
+  overflow: hidden;
+}
+
+.home__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.home__photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(14, 43, 32, 0) 70%,
+    rgba(14, 43, 32, 0.9) 100%
+  );
+}
+
+.home__content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle at 30% 20%,
+    var(--bg-deep-2) 0%,
+    var(--bg-deep) 70%
+  );
+  padding: 4rem 3rem;
+}
+
+.home__content-inner {
+  max-width: 420px;
+}
+
+.home__eyebrow {
+  color: var(--gold);
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  opacity: 0.85;
+}
+
+.home__title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--cream);
+}
+
+.home__edition {
+  display: block;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 3.4rem;
+  color: var(--gold-soft);
+  line-height: 1;
+  margin-top: 0.3rem;
+  transform: rotate(-2deg);
+}
+
+.home__cta {
+  margin-top: 2.25rem;
+  padding: 0.85rem 2.75rem;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--gold), #c98f3a);
+  color: #26180a;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(224, 179, 84, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.home__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(224, 179, 84, 0.35);
+}
+
+.home__joke {
+  margin-top: 1.5rem;
+  font-style: italic;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .home__photo {
+    flex: none;
+    height: 42vh;
+  }
+
+  .home__photo::after {
+    background: linear-gradient(
+      to bottom,
+      rgba(14, 43, 32, 0) 70%,
+      rgba(14, 43, 32, 0.95) 100%
+    );
+  }
+
+  .home__content {
+    padding: 2.5rem 1.75rem 3rem;
+  }
+
+  .home__title {
+    font-size: 2.1rem;
+  }
+
+  .home__edition {
+    font-size: 2.8rem;
+  }
+}
